@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" material="1" name="he gas" region="-1 -2 3" universe="2"/>
+  <cell id="2" material="2" name="detector clad" region="-7 -8 9 ~(-4 -5 6)" universe="2"/>
+  <cell id="3" material="3" name="NNS shell 1" region="-13 -14 15 ~(-10 -11 12)" universe="2"/>
+  <cell id="4" material="3" name="NNS shell 2" region="-19 -20 21 ~(-16 -17 18)" universe="2"/>
+  <cell id="5" material="3" name="NNS shell 3" region="-25 -26 27 ~(-22 -23 24)" universe="2"/>
+  <cell id="6" material="3" name="NNS shell 4" region="-31 -32 33 ~(-28 -29 30)" universe="2"/>
+  <cell id="7" material="4" name="air over nns" region="-37 ~(-34 -35 36)" universe="2"/>
+  <cell fill="2" id="8" name="nns" region="-38 -39 40" universe="1"/>
+  <cell id="9" material="4" name="air around the system" region="-41 ~(-38 -39 40)" universe="1"/>
+  <surface coeffs="0.0 0.0 0.7499999999999999" id="1" type="z-cylinder"/>
+  <surface coeffs="0.37499999999999994" id="2" type="z-plane"/>
+  <surface coeffs="-0.37499999999999994" id="3" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.7499999999999999" id="4" type="z-cylinder"/>
+  <surface coeffs="0.37499999999999994" id="5" type="z-plane"/>
+  <surface coeffs="-0.37499999999999994" id="6" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.8499999999999999" id="7" type="z-cylinder"/>
+  <surface coeffs="0.42499999999999993" id="8" type="z-plane"/>
+  <surface coeffs="-0.42499999999999993" id="9" type="z-plane"/>
+  <surface coeffs="0.0 0.0 0.8499999999999999" id="10" type="z-cylinder"/>
+  <surface coeffs="0.42499999999999993" id="11" type="z-plane"/>
+  <surface coeffs="-0.42499999999999993" id="12" type="z-plane"/>
+  <surface coeffs="0.0 0.0 7.619999999999999" id="13" type="z-cylinder"/>
+  <surface coeffs="3.8099999999999996" id="14" type="z-plane"/>
+  <surface coeffs="-3.8099999999999996" id="15" type="z-plane"/>
+  <surface coeffs="0.0 0.0 7.619999999999999" id="16" type="z-cylinder"/>
+  <surface coeffs="3.8099999999999996" id="17" type="z-plane"/>
+  <surface coeffs="-3.8099999999999996" id="18" type="z-plane"/>
+  <surface coeffs="0.0 0.0 8.889999999999999" id="19" type="z-cylinder"/>
+  <surface coeffs="4.444999999999999" id="20" type="z-plane"/>
+  <surface coeffs="-4.444999999999999" id="21" type="z-plane"/>
+  <surface coeffs="0.0 0.0 8.889999999999999" id="22" type="z-cylinder"/>
+  <surface coeffs="4.444999999999999" id="23" type="z-plane"/>
+  <surface coeffs="-4.444999999999999" id="24" type="z-plane"/>
+  <surface coeffs="0.0 0.0 10.16" id="25" type="z-cylinder"/>
+  <surface coeffs="5.08" id="26" type="z-plane"/>
+  <surface coeffs="-5.08" id="27" type="z-plane"/>
+  <surface coeffs="0.0 0.0 10.16" id="28" type="z-cylinder"/>
+  <surface coeffs="5.08" id="29" type="z-plane"/>
+  <surface coeffs="-5.08" id="30" type="z-plane"/>
+  <surface coeffs="0.0 0.0 12.7" id="31" type="z-cylinder"/>
+  <surface coeffs="6.35" id="32" type="z-plane"/>
+  <surface coeffs="-6.35" id="33" type="z-plane"/>
+  <surface coeffs="0.0 0.0 12.7" id="34" type="z-cylinder"/>
+  <surface coeffs="6.35" id="35" type="z-plane"/>
+  <surface coeffs="-6.35" id="36" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 100" id="37" type="sphere"/>
+  <surface coeffs="0.0 0.0 12.7" id="38" type="z-cylinder"/>
+  <surface coeffs="6.35" id="39" type="z-plane"/>
+  <surface coeffs="-6.35" id="40" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="0.0 0.0 0.0 100" id="41" type="sphere"/>
+</geometry>
